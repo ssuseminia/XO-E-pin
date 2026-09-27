@@ -1,0 +1,49 @@
+{
+    "results": [
+      {
+        "title": "Valorant VP",
+        "url": "anasayfa valorant.html",
+        "image": "kategori1.jpg",
+        "description": "Valorant için VP satın alabileceğiniz en iyi seçenekler."
+      },
+      {
+        "title": "Play Store",
+        "url": "ana sayfa play store.html",
+        "image": "kategori2.jpg",
+        "description": "Google Play Store için çeşitli e-pin seçenekleri."
+      },
+      {
+        "title": "Hediye Kartları",
+        "url": "anasayfa hediye kartı.html",
+        "image": "kategori3.jpg",
+        "description": "Farklı markalara ait hediye kartları."
+      },
+      {
+        "title": "Steam",
+        "url": "ana sayfa steam.html",
+        "image": "kategori4.jpg",
+        "description": "Steam platformu için e-pin ve oyun paraları."
+      },
+      {
+        "title": "League Of Legends",
+        "url": "ana sayfa league of legends.html",
+        "image": "kategori5.jpg",
+        "description": "League of Legends için e-pin seçenekleri."
+      },
+      {
+        "title": "Pugb Mobile",
+        "url": "ana sayfa pugb mobile.html",
+        "image": "kategori6.jpg",
+        "description": "Pugb Mobile oyunu için e-pin seçenekleri."
+      },
+      {
+        "title": "Xbox",
+        "url": "ana sayfa xbox.html",
+        "image": "kategori7.jpg",
+        "description": "Xbox platformu için e-pin ve oyun paraları."
+      }
+      
+      
+    ]
+  }
+  

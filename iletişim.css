@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100;
+    height: 100;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    padding: 1rem 0; /* Yüksekliği azalt */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    padding-top: 2px; /* Menü ile üst arasındaki boşluk */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.1em; /* Menü öğeleri arasındaki boşluk */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #935EB2;
+    background-color: #935EB2;
+    text-decoration: none;
+    font-size: 0.9em; /* Font boyutunu küçült */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0.8em; /* Padding ile menüyü kompakt hale getir */
+    border-radius: 7px; /* Kenarları yuvarlat */
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-search-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    font-size: 1em;
+    flex: 1;
+}
+
+.search-bar button {
+    padding: 0.5em 1.5em;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+.category-hero {
+    background: #000000;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #935EB2;
+    background-color: #935eb238;
+    text-decoration: none;
+    font-size: 0.9em; /* Font boyutunu küçült */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0.8em; /* Padding ile menüyü kompakt hale getir */
+    border-radius: 7px; /* Kenarları yuvarlat */
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.social-media a {
+    color: #000000;
+    font-size: 1.5em;
+    margin-right: 0.5rem;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #4CAF50;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #935EB2;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section img {
+    width: 40px;
+    margin: 0.5rem;
+}
+
+footer p {
+    margin: 1rem 0 0;
+}
